@@ -1,0 +1,8 @@
+.sidebarOption {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
