@@ -6,3 +6,9 @@
     padding-left: 2px;
     cursor: pointer;
 }
+
+
+.sidebarOption:hover {
+    background-color: #090112;
+    color: white;
+}
