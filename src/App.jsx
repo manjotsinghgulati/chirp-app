@@ -1,11 +1,12 @@
 import './App.css'
 import Sidebar from './components/Sidebar/Sidebar'
+import Feed from './components/Feed/Feed'
 
 const App = () => {
   return (
     <div className="App">
-      <h1>This is Chirp</h1>
       <Sidebar /> 
+      <Feed />
     </div>
   )
 }

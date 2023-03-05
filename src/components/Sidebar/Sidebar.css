@@ -1,0 +1,15 @@
+.sidebar__tweet {
+    background-color: var(--chirp-color) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    border-radius: 300px !important;
+    padding: 16px 64px !important;
+  }
+
+.sidebar{
+    border-right: 1px solid var(--chirp-border) !important;
+    padding-right: 24px;
+  }
