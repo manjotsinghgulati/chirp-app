@@ -3,10 +3,26 @@
     border: none !important;
     color: white !important;
     font-size: 18px;
+    margin-top: 24px;
     font-weight: 600 !important;
     text-transform: inherit !important;
     border-radius: 300px !important;
-    padding: 16px 64px !important;
+    padding: 16px 72px !important;
+  }
+
+  .sidebar {
+    border-right: 1px solid var(--chirp-background);
+    flex: 0.3;
+    min-width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .sidebar__twitterIcon {
+    color: var(--chirp-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
 .sidebar{
