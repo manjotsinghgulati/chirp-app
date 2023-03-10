@@ -1,0 +1,11 @@
+.feed {
+    flex: 0.4;
+    border: 1px solid var(--chirp-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.feed_header{
+    position: sticky;
+    top: 0
+}
