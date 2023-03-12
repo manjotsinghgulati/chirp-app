@@ -7,5 +7,9 @@
 
 .feed_header{
     position: sticky;
-    top: 0
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--chirp-border);
+    padding: 15px 20px;
 }

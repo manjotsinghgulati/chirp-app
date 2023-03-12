@@ -6,7 +6,9 @@ import "./Feed.css";
 const Feed = () => {
     return (
         <div className="feed">
-            <h1>Feed</h1>
+            <div className="feed_header">
+                <h1>Feed</h1>
+            </div>
         </div>
     );
 }
