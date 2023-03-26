@@ -34,4 +34,9 @@
     font-weight: 900 !important;
     text-transform: inherit !important;
     border-radius: 30px !important;
+    padding: 15px 20px !important;
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    cursor: pointer !important;
   }
+
