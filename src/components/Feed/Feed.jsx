@@ -1,7 +1,7 @@
 import React from "react";
 import "./Feed.css";
-// import TweetBox from "./TweetBox";
-// import Post from "./Post";
+import TweetBox from "./PostBox";
+import Post from "./Post";
 
 const Feed = () => {
     return (
