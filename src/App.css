@@ -2,12 +2,14 @@ body {
   --chirp-color: #7D53DE;
   --chirp-background: #ffffff;
   --chirp-border: rgb(229, 229, 229);
+  --chirp-text: #000000;
 }
 
 .App {
   display: flex;
   height: 100vh;
-  max-width: 1300px;
-  margin: 0 auto;
+  width: 1148px;
+  /* max-width: 1300px; */
+  margin: 0px 184px;
   background-color: var(--chirp-background);
 }
