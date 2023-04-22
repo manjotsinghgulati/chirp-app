@@ -1,8 +1,8 @@
 .post {
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid var(--chirp-background);
-    padding-bottom: 10px;
+    border-bottom: 1px solid var(--chirp-border) !important;
+    padding: 16px;
   }
   
   .post__body {
@@ -17,11 +17,11 @@
   .post__footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   
   .post__headerDescription {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-size: 15px;
   }
   
@@ -30,6 +30,11 @@
     margin-bottom: 5px;
   }
   
+  .post__image{
+    width: 400px;
+    height: 200px;
+  }
+
   .post__badge {
     font-size: 14px !important;
     color: var(--chirp-color);
@@ -42,5 +47,7 @@
   }
   
   .post__avatar {
-    padding: 20px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
