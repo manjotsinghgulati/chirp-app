@@ -1,5 +1,7 @@
 .widgets {
-  flex: 0.3;
+  flex: 0.4;
+  border-right: 1px solid var(--chirp-border) !important;
+  width: 100%;
 }
 
 .widgets__input {
@@ -17,19 +19,33 @@
   background-color: var(--chirp-background);
 }
 
+.widgets__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  width: auto;
+  border: 1px solid var(--chirp-border);
+  padding: 0px 24px;
+}
+
+.widgets__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .widgets__searchIcon {
   color: gray;
 }
 
 .widgets__widgetContainer {
-  margin-top: 15px;
-  margin-left: 20px;
+  margin: 20px;
   padding: 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
 }
 
 .widgets__widgetContainer > h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 800;
 }
