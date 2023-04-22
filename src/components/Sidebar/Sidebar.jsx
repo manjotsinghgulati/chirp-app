@@ -15,16 +15,16 @@ import Button from '@mui/material/Button';
 const Sidebar = () => {
     return (
         <div className="sidebar">
-        <TwitterIcon className="sidebar__twitterIcon" />
+        {/* <TwitterIcon className="sidebar__twitterIcon" /> */}
         <SidebarOption active text="Home" Icon={HomeIcon}/>
         <SidebarOption text="Explore" Icon={ExploreIcon}/> 
         <SidebarOption text="Notifications" Icon={NotificationsIcon}/>
-        <SidebarOption text="Messages" Icon={MailOutlineIcon}/>
+        {/* <SidebarOption text="Messages" Icon={MailOutlineIcon}/> */}
         <SidebarOption text="Bookmarks" Icon= {BookmarkBorderIcon}/>
         <SidebarOption text="Lists" Icon={ListAltIcon}/>
         <SidebarOption text="Profile" Icon={PermIdentityIcon}/>
         <SidebarOption text="More" Icon={MoreHorizIcon}/>
-        <Button class="sidebar__tweet" variant="contained">Tweet</Button>
+        <Button class="sidebar__post" variant="contained">Post</Button>
         </div>
     );
 };
