@@ -16,15 +16,15 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
         {/* <TwitterIcon className="sidebar__twitterIcon" /> */}
-        <SidebarOption active text="Home" Icon={HomeIcon}/>
-        <SidebarOption text="Explore" Icon={ExploreIcon}/> 
-        <SidebarOption text="Notifications" Icon={NotificationsIcon}/>
-        {/* <SidebarOption text="Messages" Icon={MailOutlineIcon}/> */}
+        <a href="/home"><SidebarOption active text="Home" Icon={HomeIcon}/> </a>
+        <a href="/explore"><SidebarOption text="Explore" Icon={ExploreIcon}/> </a>
+        <a href="/notifications"><SidebarOption text="Notifications" Icon={NotificationsIcon}/> </a>
+        <SidebarOption text="Messages" Icon={MailOutlineIcon}/>
         <SidebarOption text="Bookmarks" Icon= {BookmarkBorderIcon}/>
         <SidebarOption text="Lists" Icon={ListAltIcon}/>
         <SidebarOption text="Profile" Icon={PermIdentityIcon}/>
         <SidebarOption text="More" Icon={MoreHorizIcon}/>
-        <Button class="sidebar__post" variant="contained">Post</Button>
+        {/* <Button class="sidebar__post" variant="contained">Post</Button> */}
         </div>
     );
 };
