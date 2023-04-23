@@ -1,42 +1,78 @@
-.tweetBox {
-    padding-bottom: 10px;
-    border-bottom: 8px solid var(--chirp-background);
-    padding-right: 10px;
-  }
-  
-  .tweetBox > form {
-    display: flex;
-    flex-direction: column;
+.postBox {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--chirp-border) !important;
+  padding-right: 16px;
+}
 
-  }
+.postBox > form {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+}
 
-  .tweetBox__input {
-    padding: 20px;
-    display: flex;
-  }
-  
-  .tweetBox__input > input {
-    flex: 1;
-    margin-left: 20px;
-    font-size: 20px;
-    border: none;
-  }
-  
-  .tweetBox__imageInput {
-    border: none;
-    padding: 10px;
-  }
-  
-  .tweetBox__tweetButton {
-    background-color: var(--chirp-color) !important;
-    border: none !important;
-    color: white !important;
-    font-weight: 900 !important;
-    text-transform: inherit !important;
-    border-radius: 30px !important;
-    padding: 15px 20px !important;
-    margin-top: 10px !important;
-    margin-right: 10px !important;
-    cursor: pointer !important;
-  }
+.postBox__input {
+  padding: 16px;
+  margin-top: 12px;
+  color: black;
+  border-radius: 24px;
+  display: flex;
+  border: 1px var(--chirp-border) !important;
+}
 
+.postBox__postFrom{
+  /* display: flex;
+  flex-direction: row; */
+  width: 100%;
+  padding: 0px 12px;
+}
+
+.postBox__input > input {
+  flex: 1;
+  margin-left: 24px;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 100px;
+  color: var(--chirp-text);
+  background-color: var(--chirp-background);
+  border: 1px var(--chirp-border) !important;
+}
+
+.postBox__postInput
+{
+  /* flex: 1; */
+  display: block;
+  /* margin-left: 20px; */
+  margin-bottom: 12px;
+  width: 100%;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 100px;
+  color: var(--chirp-text);
+  background-color: var(--chirp-background);
+  border: 1px var(--chirp-border) !important;
+}
+.postBox__imageInput {
+  flex: 1;
+  display: block;
+  /* margin-left: 20px; */
+  font-size: 20px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 100px;
+  color: var(--chirp-text);
+  background-color: var(--chirp-background);
+  border: 1px var(--chirp-border) !important;
+}
+
+.postBox__postButton {
+  background-color: var(--chirp-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 128px;
+  height: 48px !important;
+  margin-top: 0px !important;
+  margin-left: auto !important;
+}

@@ -7,32 +7,33 @@
   
   .post__body {
     flex: 1;
-    padding: 10px;
+    /* padding: 10px; */
   }
   
   .post__body > img {
-    border-radius: 20px;
+    border-radius: 16px;
   }
   
   .post__footer {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 20px; */
+    margin-top: 16px;
   }
   
   .post__headerDescription {
-    /* margin-bottom: 10px; */
-    font-size: 15px;
+    margin-bottom: 16px;
+    font-size: 16px;
   }
   
   .post__headerText > h3 {
-    font-size: 15px;
-    margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 0px;
   }
   
   .post__image{
-    width: 400px;
+    width: 420px;
     height: 200px;
+    object-fit: cover;
   }
 
   .post__badge {
@@ -48,6 +49,6 @@
   
   .post__avatar {
     padding-right: 16px;
-    padding-top: 8px;
+    padding-top: 16px;
     padding-bottom: 8px;
   }
